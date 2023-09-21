@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const EVENTS = [
   { id: 'e1', title: 'Event 01' },
   { id: 'e2', title: 'Event 02' },
@@ -10,7 +12,9 @@ const EventsPage = () => {
         <h1>Events Page</h1>
         <ul>
           {EVENTS.map(event => (
-            <li key={event.id}>{event.title}</li>
+            <li>
+              <Link to={event.id} key={event.id}>{event.title}</Link>
+            </li>
           ))}
         </ul>
     </>
