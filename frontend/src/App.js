@@ -4,7 +4,7 @@ import RootLayout from './pages/Root';
 import EventsRootLayout from './pages/EventsRootLayout';
 
 import HomePage from './pages/Home';
-import EventsPage from './pages/Events';
+import EventsPage, { loader as eventsLoader } from './pages/Events';
 import EventDetailPage from './pages/EventDetail';
 import NewEventPage from './pages/NewEvent';
 import EditEventPage from './pages/EditEvent';
@@ -23,17 +23,7 @@ const myRouter = createBrowserRouter([
         children: [
           { index: true, 
             element: <EventsPage />, 
-            loader: async () => {
-              const response = await fetch('http://localhost:8080/events');
-
-              if (!response.ok) {
-                // setError('Fetching events failed.');
-              } else {
-                const resData = await response.json();
-                return resData.events;
-                // setFetchedEvents(resData.events);
-              }
-            }
+            loader: eventsLoader,
           },
           { path: ':eventId', element: <EventDetailPage />},
           { path: 'new', element: <NewEventPage />},
