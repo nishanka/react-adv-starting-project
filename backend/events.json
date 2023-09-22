@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"Another Amazing Event","image":"https://www.eventdrive.com/assets/blog/business-executives-with-hand-stacked_1170-1901.jpg","date":"2023-09-27","description":"Another important point to note is that organizing a festival is a rather risky project, as it is an event that requires a substantial budget. The only way to balance the finances is and to plan a good strategy by planning your budget from A to Z in order to guarantee a high ROI. So don’t hesitate to call on local and regional partners who can help you communicate more widely.","id":"f94e625c-668f-4b73-bbdf-64eeea53306a"},{"title":"New Event 01","image":"https://www.eventdrive.com/assets/blog/people-building-wooden-tower_23-2148252131.jpg","date":"2023-09-30","description":"Festivals are often culturally dominant. Among them are music or film festivals, which are the most widespread. Sometimes with a charitable aim, the festival is meant to be convivial and festive! So let the volume on!","id":"569664bb-4703-4617-86e8-b3f40d281352"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
